@@ -1,0 +1,27 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int num;
+            Console.WriteLine("enter the number");
+            num=int.Parse(Console.ReadLine());
+            if (num>0)
+            {
+                Console.WriteLine("the" + num + "number is positive ");
+            }
+            else
+            {
+                Console.WriteLine("the " + num + "negative number");
+                }
+            }
+
+        }
+    }

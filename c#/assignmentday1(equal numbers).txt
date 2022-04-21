@@ -1,0 +1,28 @@
+namespace ConsoleApp1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int num1;
+            int num2;
+            Console.WriteLine("enter num1");
+            Console.WriteLine("enter num2");
+            num1 = int.parse(Console.ReadLine());
+            num2 = int.parse(Console.ReadLine());
+            if (num1 == num2)
+            {
+                Console.WriteLine("num1 {0} and num2 {1} are equal", num1, num2);
+            }
+            else if(num1!=num2 )
+            {
+                Console.WriteLine("num1 {0} and num2 {1} are equal", num1, num2);
+            }
+            else
+            {
+                ConsoleApp1.WriteLine("Invalid input");
+
+            }
+        }
+        }
+    }
