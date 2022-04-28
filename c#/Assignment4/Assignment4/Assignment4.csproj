@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E18C3A80-63AE-4789-85C3-31075B2D8C71}</ProjectGuid>
+    <ProjectGuid>{2051F2E1-E88E-4CB9-A09F-7928B323A3DE}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>assign2</RootNamespace>
-    <AssemblyName>assign2</AssemblyName>
+    <RootNamespace>Assignment4</RootNamespace>
+    <AssemblyName>Assignment4</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,10 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="assign2.cs" />
-    <Compile Include="Display.cs" />
-    <Compile Include="marks.cs" />
-    <Compile Include="Mmarks.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

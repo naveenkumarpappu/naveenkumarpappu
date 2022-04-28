@@ -13,8 +13,8 @@ namespace assign2
             assign2 arr = new assign2();
             arr.array();
             //for marks
-            Tenmarks a = new Tenmarks3();
-            a.marks();
+          Mmarks a = new Mmarks();
+            a.tmarks();
             //display
             Display b = new Display();
             b.StringProgram();

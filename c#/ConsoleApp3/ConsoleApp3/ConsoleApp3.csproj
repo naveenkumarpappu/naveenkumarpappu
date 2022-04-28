@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E18C3A80-63AE-4789-85C3-31075B2D8C71}</ProjectGuid>
+    <ProjectGuid>{A5F69442-D2BD-41F8-BE75-C9AA277EDE2F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>assign2</RootNamespace>
-    <AssemblyName>assign2</AssemblyName>
+    <RootNamespace>ConsoleApp3</RootNamespace>
+    <AssemblyName>ConsoleApp3</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,10 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="assign2.cs" />
-    <Compile Include="Display.cs" />
-    <Compile Include="marks.cs" />
-    <Compile Include="Mmarks.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -1,0 +1,8 @@
+C:\Assignments\c#\ConsoleApp3\ConsoleApp3\bin\Debug\ConsoleApp3.exe.config
+C:\Assignments\c#\ConsoleApp3\ConsoleApp3\bin\Debug\ConsoleApp3.exe
+C:\Assignments\c#\ConsoleApp3\ConsoleApp3\bin\Debug\ConsoleApp3.pdb
+C:\Assignments\c#\ConsoleApp3\ConsoleApp3\obj\Debug\ConsoleApp3.csproj.AssemblyReference.cache
+C:\Assignments\c#\ConsoleApp3\ConsoleApp3\obj\Debug\ConsoleApp3.csproj.SuggestedBindingRedirects.cache
+C:\Assignments\c#\ConsoleApp3\ConsoleApp3\obj\Debug\ConsoleApp3.csproj.CoreCompileInputs.cache
+C:\Assignments\c#\ConsoleApp3\ConsoleApp3\obj\Debug\ConsoleApp3.exe
+C:\Assignments\c#\ConsoleApp3\ConsoleApp3\obj\Debug\ConsoleApp3.pdb
