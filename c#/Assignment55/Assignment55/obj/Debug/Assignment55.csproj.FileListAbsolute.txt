@@ -1,0 +1,8 @@
+C:\Assignments\c#\Assignment55\Assignment55\bin\Debug\Assignment55.exe.config
+C:\Assignments\c#\Assignment55\Assignment55\bin\Debug\Assignment55.exe
+C:\Assignments\c#\Assignment55\Assignment55\bin\Debug\Assignment55.pdb
+C:\Assignments\c#\Assignment55\Assignment55\obj\Debug\Assignment55.csproj.AssemblyReference.cache
+C:\Assignments\c#\Assignment55\Assignment55\obj\Debug\Assignment55.csproj.SuggestedBindingRedirects.cache
+C:\Assignments\c#\Assignment55\Assignment55\obj\Debug\Assignment55.csproj.CoreCompileInputs.cache
+C:\Assignments\c#\Assignment55\Assignment55\obj\Debug\Assignment55.exe
+C:\Assignments\c#\Assignment55\Assignment55\obj\Debug\Assignment55.pdb
