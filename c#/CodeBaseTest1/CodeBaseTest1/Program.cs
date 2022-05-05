@@ -8,21 +8,24 @@ namespace CodeBaseTest1
 {
     internal class Program
     {
-        class TicketB
+        class passenger
         {
             public string Name { get; set; }
             public int Age { get; set; }
-            TicketB Tickets { get; set; }
+            Ticket Tickets { get; set; }
+           public string DateofTravel { get; set; }
 
-            public TicketB(string name, int age)
+            public passenger(string name, int age,string DateofTravel)
             {
                 Name = name;
                 Age = age;
-                Tickets = new Tickets();
+                DateofTravel = DateofTravel;
+                Tickets = new Ticket();
+
             }
             public void TicketBooking(int tickets)
             {
-                Ticket.Tickets= tickets;
+                Ticket.ticket= tickets;
                 Console.WriteLine("Tickets Booked Succesfully");
             }
             class Ticket
@@ -41,7 +44,7 @@ namespace CodeBaseTest1
                 }
                 static void Main(string[] args)
                 {
-                    TicketB TicketB = new TicketB("naveen", 15);
+                    passenger TicketB = new passenger("naveen", 15,"02/05/2022");
                     Console.WriteLine("enter the no of tickets ");
                     TicketB.TicketBooking(int.Parse(Console.ReadLine()));
                     Console.ReadLine();
