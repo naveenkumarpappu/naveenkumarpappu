@@ -1,0 +1,13 @@
+Declare@dateofbirthdatetime  
+
+Declare@currentdatetimedatetime  
+
+Declare@daysvarchar(3)  
+
+set@dateofbirth='1999-08-05-Birthdate  
+
+set@currentdatetime =getdate()--Current Datetime  
+
+select@days=datepart(d,@currentdatetime)-datepart(d,@dateofbirth)  
+
+select @days   +' days' asDays  
