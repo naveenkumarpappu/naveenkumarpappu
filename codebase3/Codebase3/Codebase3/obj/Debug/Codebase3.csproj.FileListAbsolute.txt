@@ -1,0 +1,7 @@
+C:\Assignments\codebase3\Codebase3\Codebase3\obj\Debug\Codebase3.csproj.AssemblyReference.cache
+C:\Assignments\codebase3\Codebase3\Codebase3\obj\Debug\Codebase3.csproj.CoreCompileInputs.cache
+C:\Assignments\codebase3\Codebase3\Codebase3\bin\Debug\Codebase3.exe.config
+C:\Assignments\codebase3\Codebase3\Codebase3\bin\Debug\Codebase3.exe
+C:\Assignments\codebase3\Codebase3\Codebase3\bin\Debug\Codebase3.pdb
+C:\Assignments\codebase3\Codebase3\Codebase3\obj\Debug\Codebase3.exe
+C:\Assignments\codebase3\Codebase3\Codebase3\obj\Debug\Codebase3.pdb
