@@ -1,0 +1,7 @@
+C:\Assignments\JAVA SCRIPT(assignment)\JS assignmentsp\JS assignmentsp\bin\Debug\JS assignmentsp.exe.config
+C:\Assignments\JAVA SCRIPT(assignment)\JS assignmentsp\JS assignmentsp\bin\Debug\JS assignmentsp.exe
+C:\Assignments\JAVA SCRIPT(assignment)\JS assignmentsp\JS assignmentsp\bin\Debug\JS assignmentsp.pdb
+C:\Assignments\JAVA SCRIPT(assignment)\JS assignmentsp\JS assignmentsp\obj\Debug\JS assignmentsp.csproj.AssemblyReference.cache
+C:\Assignments\JAVA SCRIPT(assignment)\JS assignmentsp\JS assignmentsp\obj\Debug\JS assignmentsp.csproj.CoreCompileInputs.cache
+C:\Assignments\JAVA SCRIPT(assignment)\JS assignmentsp\JS assignmentsp\obj\Debug\JS assignmentsp.exe
+C:\Assignments\JAVA SCRIPT(assignment)\JS assignmentsp\JS assignmentsp\obj\Debug\JS assignmentsp.pdb
