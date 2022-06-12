@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32510.428
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCass", "MVCass\MVCass.csproj", "{890D7C90-FC96-4797-980D-4053C8F62842}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{890D7C90-FC96-4797-980D-4053C8F62842}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{890D7C90-FC96-4797-980D-4053C8F62842}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{890D7C90-FC96-4797-980D-4053C8F62842}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{890D7C90-FC96-4797-980D-4053C8F62842}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4E6D4C34-02D6-48FF-AA57-EDC7F6AC5091}
+	EndGlobalSection
+EndGlobal

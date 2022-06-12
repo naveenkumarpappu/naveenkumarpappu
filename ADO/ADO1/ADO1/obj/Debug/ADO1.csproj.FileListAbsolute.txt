@@ -1,0 +1,3 @@
+C:\Assignments\ADO\ADO1\ADO1\obj\Debug\ADO1.csproj.AssemblyReference.cache
+C:\Assignments\ADO\ADO1\ADO1\obj\Debug\ADO1.csproj.SuggestedBindingRedirects.cache
+C:\Assignments\ADO\ADO1\ADO1\obj\Debug\ADO1.csproj.CoreCompileInputs.cache

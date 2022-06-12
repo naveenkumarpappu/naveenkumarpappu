@@ -1,3 +1,8 @@
 C:\Assignments\c#\CodeBaseTest1\CodeBaseTest1\obj\Debug\CodeBaseTest1.csproj.AssemblyReference.cache
 C:\Assignments\c#\CodeBaseTest1\CodeBaseTest1\obj\Debug\CodeBaseTest1.csproj.SuggestedBindingRedirects.cache
 C:\Assignments\c#\CodeBaseTest1\CodeBaseTest1\obj\Debug\CodeBaseTest1.csproj.CoreCompileInputs.cache
+C:\Assignments\c#\CodeBaseTest1\CodeBaseTest1\bin\Debug\CodeBaseTest1.exe.config
+C:\Assignments\c#\CodeBaseTest1\CodeBaseTest1\bin\Debug\CodeBaseTest1.exe
+C:\Assignments\c#\CodeBaseTest1\CodeBaseTest1\bin\Debug\CodeBaseTest1.pdb
+C:\Assignments\c#\CodeBaseTest1\CodeBaseTest1\obj\Debug\CodeBaseTest1.exe
+C:\Assignments\c#\CodeBaseTest1\CodeBaseTest1\obj\Debug\CodeBaseTest1.pdb

@@ -15,8 +15,10 @@ namespace StoredProcedure
         public static SqlDataReader dr;
         public static SqlConnection getCon()
         {
-            con = new SqlConnection("data source = LAPTOP-JOMHCDDM\\SQLEXPRESS; Initial catalog =EmployeManagement; " + "user id = sa; password = Temp1234");
-           con.Open();
+            // con = new SqlConnection("data source =LAPTOP-JOMHCDDM\\ffSQLEXPRESS01;Initial catalog = zensar; " + "user id = sa; password = Temp1234");
+          string connection=@"data source=LAPTOP - JOMHCDDM\\ffSQLEXPRESS01; Initial catalog = zensar;Integrated Security=SSPI";
+            con = new SqlConnection(connection);  
+            con.Open();
             return con;
         }
         public static void select()
@@ -54,7 +56,7 @@ namespace StoredProcedure
         public static void display()
         {
             con = getCon();
-            cmd = new SqlCommand("select * from Code_Employee");
+            cmd = new SqlCommand("select * from Student");
             cmd.Connection = con;
             dr = cmd.ExecuteReader();
             while (dr.Read())
@@ -62,13 +64,13 @@ namespace StoredProcedure
                 Console.WriteLine("Employee Id  " + dr[0]);
                 Console.WriteLine("Employee Name  " + dr[1]);
                 Console.WriteLine("Employee Salary  " + dr[2]);
-                Console.WriteLine("Employee Type " + dr[3]);
+                //Console.WriteLine("Employee Type " + dr[3]);
             }
             con.Close();
         }
         public static void Main(string[] args)
         {
-            select();
+            //select();
             display();
             Console.Read();
         }

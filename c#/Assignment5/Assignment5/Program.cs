@@ -15,7 +15,7 @@ namespace Assignment5
     }
     internal class Program
     {
-        public int balance = 50000;
+        public int balance = 20000;
         public void deposit(int amount)
         {
             balance = balance + amount;

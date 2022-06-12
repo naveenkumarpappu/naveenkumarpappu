@@ -4,52 +4,41 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CodeBaseTest1
-{
-    internal class Program
+    namespace ConsoleAppDay13
     {
-        class passenger
+        public delegate void MyDelegate(string str);
+        class EventsEg2
         {
-            public string Name { get; set; }
-            public int Age { get; set; }
-            Ticket Tickets { get; set; }
-           public string DateofTravel { get; set; }
+            public event MyDelegate MyEvent;
 
-            public passenger(string name, int age,string DateofTravel)
-            {
-                Name = name;
-                Age = age;
-                DateofTravel = DateofTravel;
-                Tickets = new Ticket();
 
-            }
-            public void TicketBooking(int tickets)
+
+            public EventsEg2()
             {
-                Ticket.ticket= tickets;
-                Console.WriteLine("Tickets Booked Succesfully");
+                this.MyEvent += new MyDelegate(this.WelcomeUser);
+                this.MyEvent += new MyDelegate(this.DisplayName);
             }
-            class Ticket
+
+
+
+            public void WelcomeUser(string username)
             {
-                public int tickets;
-                public int Tickets
-                {
-                    get => tickets;
-                    set
-                    {
-                        if (value < 5)
-                            throw new Exception("cannot book more than 5 Tickets");
-                        else
-                            tickets = value;
-                    }
-                }
-                static void Main(string[] args)
-                {
-                    passenger TicketB = new passenger("naveen", 15,"02/05/2022");
-                    Console.WriteLine("enter the no of tickets ");
-                    TicketB.TicketBooking(int.Parse(Console.ReadLine()));
-                    Console.ReadLine();
-                }
+                Console.WriteLine("Welcome" + " " + username);
+            }
+
+
+
+            public void DisplayName(string name)
+            {
+                Console.WriteLine(name);
+            }
+
+            static void Main()
+            {
+                EventsEg2 ec2 = new EventsEg2();
+                //Console.WriteLine(ec2.MyEvent("Banurekha"));
+                ec2.MyEvent("naveen");
+                Console.Read();
             }
         }
     }
-}
